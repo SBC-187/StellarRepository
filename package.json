@@ -1,0 +1,15 @@
+{
+  "name": "brickchain-mvp",
+  "version": "0.1.0",
+  "description": "MVP de BrickChain: tokenización de proyectos inmobiliarios en ladrillos sobre Stellar testnet",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/01-crear-cuentas.js",
+    "emitir": "node scripts/02-emitir-ladrillos.js",
+    "comprar": "node scripts/03-comprar-ladrillos.js",
+    "balances": "node scripts/04-consultar-balances.js"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^14.0.0"
+  }
+}
