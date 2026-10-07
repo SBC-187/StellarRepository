@@ -45,5 +45,21 @@ window.BRICKCHAIN_PROYECTOS = [
     pisos: 2,
     estado: "Preventa",
     enVivo: false
+
+  },
+  {
+    id: "condominio-tamarindo",
+    nombre: "Condominio Playa Tamarindo",
+    ubicacion: "Tamarindo, Guanacaste",
+    tipo: "Turístico",
+    descripcion: "Condominio de cuatro pisos con 32 unidades para alquiler vacacional, a 300 metros de la playa. Los ingresos vienen de las estancias de turistas durante todo el año.",
+    total: 1500,
+    vendidos: 120,
+    precioUsd: 50,
+    rendimiento: 0.095,
+    plazoMeses: 42,
+    pisos: 4,
+    estado: "Preventa",
+    enVivo: false
   }
 ];
