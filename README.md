@@ -38,3 +38,30 @@ Los parámetros del proyecto (nombre, código del token, total y precio) se edit
 - [ ] Frontend web con conexión a la wallet Freighter
 - [ ] Varios proyectos inmobiliarios (un código de ladrillo por proyecto)
 - [ ] Contrato Soroban para distribuir rendimientos entre los dueños de ladrillos
+
+
+
+## Sitio web
+
+El sitio está en `index.html` y no necesita compilación.
+
+1. Abrir la carpeta en VS Code.
+2. Clic derecho en `index.html` → **Open with Live Server**.
+3. Para ver datos reales de Stellar testnet: `node scripts/05-config-web.js` y recargar la página.
+
+## Demo para el pitch
+
+1. Abrir el sitio en **Torre Demo Escazú**.
+2. Correr `npm run comprar -- 20` en la terminal.
+3. Presionar **Actualizar** en "Últimas compras": el muro crece y la compra enlaza a Stellar Expert.
+
+## Equipo
+
+| Integrante | Rol |
+|---|---|
+| Sebas Badilla | Líder técnico · Blockchain |
+| Joseth | Desarrollo web |
+| Hans | Desarrollo y documentación técnica |
+| Eduardo | Finanzas y administración |
+| Byron | Ventas y eventos |
+| Sebastián Fonseca | Investigación de mercado |
